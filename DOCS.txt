@@ -1,0 +1,20 @@
+bot documentation
+getting started:
+to start the program run the command in the command prompt:
+botscript beginsetup
+or 
+botscript.exe beginsetup
+
+keywords and lexer control:
+
+u - presses w key
+d - presses s key
+! - tells the lexer to release all keys
+> - presses d key
+< - presses a key
+loop - a controller which lets you run a specific sequence of statements a number of times 
+example:
+loop([">","!",">","!","say('i a bot')"],10)
+
+say - says a message in game chat (may not work for all games) make sure to set obp to the key required to open chat..:
+say("im a bot",obp="x")

@@ -1,0 +1,6 @@
+>
+!
+>
+!
+loop(['>','u','!'],4)
+! #stops all keypresses
